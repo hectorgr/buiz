@@ -1,6 +1,6 @@
 <?php
 
-namespace Buiz;
+namespace Buiz\Entities;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
