@@ -1,0 +1,44 @@
+{
+  "name": "buiz",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "App to design and apply exams on traditional schools and online.",
+  "main": "",
+  "authors": [
+    "Héctor Garduño Real <hector_gr@outlook.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "school",
+    "university",
+    "student",
+    "teacher",
+    "exam",
+    "test",
+    "quiz"
+  ],
+  "homepage": "https://github.com/hectorgr/buiz",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "gentelella": "^1.3.0",
+    "font-awesome": "^4.6.3",
+    "iCheck": "^1.0.2",
+    "select2": "^4.0.3",
+    "switchery": "^0.8.1",
+    "fastclick": "^1.0.6",
+    "nprogress": "^0.2.0",
+    "parsleyjs": "^2.4.4",
+    "autosize": "^3.0.17",
+    "devbridge-autocomplete": "^1.2.26",
+    "normalize-css": "^4.2.0"
+  }
+}

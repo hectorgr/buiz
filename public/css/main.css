@@ -1,0 +1,148 @@
+/*------------------------------------*\
+    $CONTENT
+\*------------------------------------*/
+/**
+ * EXTERNAL............Imports from external
+ * RESET...............Initial values
+ * GENERAL.............General purposes in the App
+ * HELPERS.............Classes for use specific properties
+ * VARIOUS.............Various styles
+ * SCREENS.............Styles for specific design in the App
+ * OVERWRITE...........Alter classes from vendor plugins
+ */
+
+/*------------------------------------*\
+    $ EXTERNAL
+\*------------------------------------*/
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+/*------------------------------------*\
+    $ RESETS
+\*------------------------------------*/
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: transparent;
+    color: #263238;
+}
+
+/*------------------------------------*\
+    $ GENERAL
+\*------------------------------------*/
+.browserupgrade {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 10px 5px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #d32f2f;
+    color: #fff;
+}
+    .browserupgrade a { color: #ffc107; }
+.appLogo {
+    color: #004d40;
+    font-size: 1.2em;
+    border-left: 2px solid #ff9800;
+    border-right: 2px solid #ff9800;
+    padding: 0 .2em;
+}
+
+/*------------------------------------*\
+    $ HELPERS
+\*------------------------------------*/
+.margin-top-small { margin-top: 1.5em; }
+.margin-bottom-small { margin-bottom: 1.5em; }
+.margin-left-small { margin-left: 1.5em; }
+.box-center { margin: 0 auto; }
+.display-block { display: block; }
+.text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+/*------------------------------------*\
+    $ VARIOUS
+\*------------------------------------*/
+.list-reset { padding-left: 1em; }
+.form-control { margin-top: 0; }
+
+/*------------------------------------*\
+    $ SCREENS
+\*------------------------------------*/
+/**
+ * LOGIN
+ */
+.cover-background {
+    background: url('../images/background-main1.jpg') center no-repeat;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(3px);
+            filter: blur(3px);
+}
+    .cover-background img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+.login-form {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: .5em;
+}
+.login-logo { margin: 0 auto; }
+.login-slogan {
+    margin-bottom: 2em;
+    color: #004D40;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+}
+.login-footer {
+    position: relative;
+    margin: 1em auto;
+    text-align: center;
+    color: #fff;
+}
+    .login-footer a:not(.icon) { color: #ffc107; }
+    .login-footer a.icon { color: #fff; }
+    .login-footer a:hover { text-decoration: underline; }
+    .login-footer a.icon:hover { color: #ffc107; }
+
+
+
+
+/*------------------------------------*\
+    $ OVERWRITE
+\*------------------------------------*/
+/**
+ * BOOTSTRAP
+ */
+.form-group-required .form-control {
+    display: inline-block;
+    width: calc(100% - 1.3em);
+}
+
+/**
+ * GENTELELLA
+ */
+.btn .fa { margin-right: 0.5em; }
+.form-control-feedback.left { left: 5px; }
+
+/**
+ * PARSLEYJS
+ */
+.parsley-errors-list { text-align: center; }
+
+/**
+ * ICHECK
+ */
+.iradio_flat-green {
+    border-radius: 50%;
+    background-color: #fff;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="images/buiz-logo.png"/>
+            <square150x150logo src="images/buiz-logo.png"/>
+            <wide310x150logo src="images/buiz-logo-horizontal.png"/>
+            <square310x310logo src="images/buiz-logo.png"/>
+        </tile>
+    </msapplication>
+</browserconfig>

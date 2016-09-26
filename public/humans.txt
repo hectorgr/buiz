@@ -1,0 +1,8 @@
+/* TEAM */
+	Contact: hector_gr [at] outlook.com
+	Twitter: @cadete_kdt
+	From: Toluca, México
+
+/* SITE */
+	Language: Spanish
+	Doctype: HTML5
